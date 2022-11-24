@@ -2,7 +2,7 @@ import React from 'react';
 
 const Login = () => {
 	return (
-		<div className="LOGIN">
+		<div className="flex flex-col h-full justify-center items-center">
 			<h1>Login</h1>
 			<form>
 				<input type="text" placeholder="Username" />

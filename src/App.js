@@ -5,7 +5,9 @@ import Router from './Router';
 function App() {
 	return (
 		<div className="App">
-			<RouterProvider router={Router} />
+			<div className=" relative w-full h-screen">
+				<RouterProvider router={Router} />
+			</div>
 		</div>
 	);
 }
