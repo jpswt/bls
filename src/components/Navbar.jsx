@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	return (
-		<div className="navbar">
-			<div className="container pt-10 pb-10 flex justify-between">
+		<div className="navbar ">
+			<div className="container h-20 bg-cyan-600 py-10 px-5 flex justify-between items-center">
 				<div className="logo text-4xl text-white opacity-98 drop-shadow-md">
 					blogME
 				</div>
@@ -32,10 +32,10 @@ const Navbar = () => {
 					<Link to="?cat=food">
 						<h6>FOOD</h6>
 					</Link>
-					<span>Name</span>
-					<span>Logout</span>
-					<span>
-						<Link to="/compose">Compose</Link>
+					<span className=" font-semibold">Name</span>
+					<span className=" font-semibold">Logout</span>
+					<span className=" w-[60px] h-[30px] bg-white text-teal-600 rounded-md flex justify-center items-center hover:bg-gray-200 cursor-pointer">
+						<Link to="/compose">Write</Link>
 					</span>
 				</div>
 			</div>
