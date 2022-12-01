@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
 	return (
-		<div className="relative flex flex-col h-full justify-center items-center">
+		<div className="relative flex flex-col h-screen justify-center items-center">
 			<h1 className=" font-bold text-4xl font-sans text-white mb-2 ">
 				Blog Me
 			</h1>

@@ -4,7 +4,7 @@ import Router from './Router';
 
 function App() {
 	return (
-		<div className="App bg-gradient-to-b from-teal-500 to-sky-500 relative w-full h-screen flex justify-center">
+		<div className="App bg-gradient-to-b from-teal-500 to-sky-500 relative w-full h-full flex justify-center">
 			<div className="w-[1024px]">
 				<RouterProvider router={Router} />
 			</div>
