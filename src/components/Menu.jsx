@@ -30,11 +30,11 @@ const Menu = () => {
 
 	return (
 		<div className="menu flex-2 flex flex-col gap-12 text-white">
-			<h1 className="text-5xl">Other Posts you might like</h1>
-			{posts.map((post) => (
-				<div className="post flex flex-col gap-5 ">
+			<h1 className="text-2xl">Other Posts you might like</h1>
+			{posts.map((post, idx) => (
+				<div className="post flex flex-col gap-5 " key={idx}>
 					<img className="w-full h-100 object-cover" src={post.img} alt="" />
-					<h2 className="text-4xl">{post.title}</h2>
+					<h2 className="text-xl">{post.title}</h2>
 					<button className="border-2 border-white px-4 py-2 w-fit hover:bg-white hover:text-teal-500">
 						Read More
 					</button>
